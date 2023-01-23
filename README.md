@@ -19,7 +19,7 @@
    
  
  # Data Structures and Algorithms practice problems
-  - Trees 
+  - [Trees](https://github.com/RaghadHanon/Algorithms-data-structures/tree/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees) 
   - Linked List
   - Priority Queue
   - Queue
