@@ -14,7 +14,7 @@
      - [Circular Queue(Array implementation)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/CircularQueue.java)
  - Stack
    - [Stack(LinkedList implementation)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/StackLinkedList.java)
-   - [li>Stack(Array implementation)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/ArrayList.java)
+   - [Stack(Array implementation)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/ArrayList.java)
    - [Stack(Queue implementation)]()
    
  
