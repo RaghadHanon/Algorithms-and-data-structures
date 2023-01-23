@@ -56,6 +56,7 @@
     - [Palindrome Linked List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/Palindrome%20Linked%20List.java)
     - [ Swapping Nodes in a Linked List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/%20Swapping%20Nodes%20in%20a%20Linked%20List.java)
     - [ Merge Two Sorted Lists](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/%20Merge%20Two%20Sorted%20Lists.java)
+    - [Remove Nth Node From End of List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/Remove%20Nth%20Node%20From%20End%20of%20List.java)
   - ### Priority Queue
   - ### Queue
   - ### Stack
