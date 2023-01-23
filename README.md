@@ -28,6 +28,7 @@
     - [Subtree of Another Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Subtree%20of%20Another%20Tree.java)
     - [ Sum of Left Leaves](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/%20Sum%20of%20Left%20Leaves.java)
     - [Binary Tree Paths](https://github.com/RaghadHanon/Algorithms-data-structures/tree/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees)
+    - [Symmetric Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Symmetric%20Tree.java)
   - Linked List
   - Priority Queue
   - Queue
