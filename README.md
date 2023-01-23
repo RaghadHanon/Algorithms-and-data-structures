@@ -1,25 +1,25 @@
 # Data Structures Java Implementation
- - Balanced Trees
+ - ### Balanced Trees
    - [AVL Tree (recursive)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/AVLTree.java) 
- - [Binary Search Tree](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/BinarySearchTree.java)
- - Linked List 
+ - ### [Binary Search Tree](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/BinarySearchTree.java)
+ - ### Linked List 
    - [Singly linked lists](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/SinglyLinkedLists.java)
    - [Doubly linked lists](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/DoublyLinkedLists.java)
- - [Array List ](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/ArrayList.java)
- - Priority Queue
+ - ### [Array List ](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/ArrayList.java)
+ - ### Priority Queue
    - [Min Binary Heap](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/MinBinaryHeap.java)
    - [Max Binary Heap](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/MaxBinaryHeap.java)
- - Queue
+ - ### Queue
      - [Queue (LinkedList implementation)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/Queue.java)
      - [Circular Queue(Array implementation)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/CircularQueue.java)
- - Stack
+ - ### Stack
    - [Stack(LinkedList implementation)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/StackLinkedList.java)
    - [Stack(Array implementation)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/ArrayList.java)
    
    
  
  # Data Structures and Algorithms practice problems
-  - [Trees](https://github.com/RaghadHanon/Algorithms-data-structures/tree/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees) 
+  - ### [Trees](https://github.com/RaghadHanon/Algorithms-data-structures/tree/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees) 
     - [ Invert Binary Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Invert%20Binary%20Tree.java)
     - [ Maximum Depth of Binary Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/%20Maximum%20Depth%20of%20Binary%20Tree.java)
     - [Diameter of Binary Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Diameter%20of%20Binary%20Tree.java)
@@ -44,12 +44,12 @@
     - [Binary Tree Maximum Path Sum](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Binary%20Tree%20Maximum%20Path%20Sum.java)
     - [Binary Tree Right Side View](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Binary%20Tree%20Right%20Side%20View.java)
     - [Kth Smallest Element in a BST](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Kth%20Smallest%20Element%20in%20a%20BST.java)
-  - [Linked List](https://github.com/RaghadHanon/Algorithms-and-data-structures/tree/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList)
+  - ### [Linked List](https://github.com/RaghadHanon/Algorithms-and-data-structures/tree/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList)
     - [Reverse Linked List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/Reverse%20Linked%20List.java)
-  - Priority Queue
-  - Queue
-  - Stack
-  - Recursion
-  - Hashing
+  - ### Priority Queue
+  - ### Queue
+  - ### Stack
+  - ### Recursion
+  - ### Hashing
   
  
