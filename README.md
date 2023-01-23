@@ -64,7 +64,8 @@
     - [Reverse Linked List II](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/Reverse%20Linked%20List%20II.java)
     - [Remove Duplicates from Sorted List II](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/Remove%20Duplicates%20from%20Sorted%20List%20II.java)
     - [ Remove Zero Sum Consecutive Nodes from Linked List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/%20Remove%20Zero%20Sum%20Consecutive%20Nodes%20from%20Linked%20List.java)
-    - 
+    - [ Find the Minimum and Maximum Number of Nodes Between Critical Points](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/%20Find%20the%20Minimum%20and%20Maximum%20Number%20of%20Nodes%20Between%20Critical%20Points.java)
+    - [Split Linked List in Parts](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/Split%20Linked%20List%20in%20Parts.java)
   - ### Priority Queue
   - ### Queue
   - ### Stack
