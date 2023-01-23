@@ -54,6 +54,8 @@
     - [Intersection of Two Linked Lists](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/Intersection%20of%20Two%20Linked%20Lists.java)
     - [ Intersection of Two Linked Lists then modify](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/%20Intersection%20of%20Two%20Linked%20Lists%20then%20modify.java)
     - [Palindrome Linked List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/Palindrome%20Linked%20List.java)
+    - [ Swapping Nodes in a Linked List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/%20Swapping%20Nodes%20in%20a%20Linked%20List.java)
+    - [ Merge Two Sorted Lists](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/%20Merge%20Two%20Sorted%20Lists.java)
   - ### Priority Queue
   - ### Queue
   - ### Stack
