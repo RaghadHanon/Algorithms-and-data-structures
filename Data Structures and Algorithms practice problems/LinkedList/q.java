@@ -1,47 +1,41 @@
 /**
- * Definition for a binary tree node.
- * public class TreeNode {
+ * Definition for singly-linked list.
+ * public class ListNode {
  *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-
-//https://leetcode.com/problems/binary-tree-level-order-traversal/description/?fbclid=IwAR2CHmQP24AqHhluHV_pomxKGNQzmV7tsJfXpbi9DSel-1N8GJofl9G6V04
+ //https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
 class Solution {
-  
-  List<List<Integer>>  list=new ArrayList<>();
 
-    public void bfs(TreeNode root){
-       Queue<TreeNode> q=new LinkedList<>();
+    public ListNode deleteDuplicates(ListNode head) {
+        if(head==null||head.next==null)
+        return head;
 
-       if(root!=null){
-           q.add(root);
-       }
-       while(!q.isEmpty()){
-           int size=q.size();    
-           ArrayList<Integer>l=new ArrayList<>();
-           for(int i=0;i<size;i++){
-           TreeNode node=q.remove();
-           l.add(node.val);
-           if(node.left!=null)q.add(node.left);
-           if(node.right!=null)q.add(node.right);
-           }
-           list.add(l);
-       }
+        ListNode prvSlow=null, slow=head,fast=head;
+        while(fast!=null&& fast.next!=null){
+            if(fast.next.val!=fast.val){
+                prvSlow=slow;
+                slow=slow.next;
+                fast=fast.next;
+            }
+            else{
+                while(fast.next!=null&& fast.val==fast.next.val){
+                    fast=fast.next;
+                }
+                if(prvSlow!=null)
+                prvSlow.next=fast.next;
+                else head=fast.next;
+                slow=fast.next;
+                fast.next=null;
+                fast=slow;
+            }
+      
 
-       
-    }
-    public List<List<Integer>> levelOrder(TreeNode root) {
-        bfs(root);
-        
-        return list;
+        }
+      return head;
     }
 }
