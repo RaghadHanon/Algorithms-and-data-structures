@@ -21,6 +21,7 @@
  # Data Structures and Algorithms practice problems
   - [Trees](https://github.com/RaghadHanon/Algorithms-data-structures/tree/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees) 
     - [ Invert Binary Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Invert%20Binary%20Tree.java)
+    - [ Maximum Depth of Binary Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/%20Maximum%20Depth%20of%20Binary%20Tree.java)
   - Linked List
   - Priority Queue
   - Queue
