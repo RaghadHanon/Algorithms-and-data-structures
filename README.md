@@ -1,4 +1,4 @@
-# Data Structures
+# Data Structures Java Implementation
  - Balanced Trees
    - [AVL Tree (recursive)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/AVLTree.java) 
  - [Binary Search Tree](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/BinarySearchTree.java)
