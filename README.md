@@ -31,6 +31,8 @@
     - [Symmetric Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Symmetric%20Tree.java)
     - [Increasing Order Search Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Increasing%20Order%20Search%20Tree.java)
     - [Binary Tree Level Order Traversal](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Binary%20Tree%20Level%20Order%20Traversal.java)
+    - [Validate Binary Search Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Validate%20Binary%20Search%20Tree.java)
+    - [Count Good Nodes in Binary Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/%20Count%20Good%20Nodes%20in%20Binary%20Tree.java)
   - Linked List
   - Priority Queue
   - Queue
