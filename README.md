@@ -26,6 +26,7 @@
     - [Balanced Binary Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Balanced%20Binary%20Tree.java)
     - [Same Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Same%20Tree.java)
     - [Subtree of Another Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Subtree%20of%20Another%20Tree.java)
+    - [ Sum of Left Leaves](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/%20Sum%20of%20Left%20Leaves.java)
   - Linked List
   - Priority Queue
   - Queue
