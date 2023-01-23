@@ -59,6 +59,12 @@
     - [Remove Nth Node From End of List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/Remove%20Nth%20Node%20From%20End%20of%20List.java)
     - [Add Two Numbers](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/Add%20Two%20Numbers.java)
     - [Remove Duplicates from Sorted List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/Remove%20Duplicates%20from%20Sorted%20List.java)
+    - [Odd Even Linked List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/Odd%20Even%20Linked%20List.java)
+    - [Delete Node in a Linked List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/Delete%20Node%20in%20a%20Linked%20List.java)
+    - [Reverse Linked List II](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/Reverse%20Linked%20List%20II.java)
+    - [Remove Duplicates from Sorted List II](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/Remove%20Duplicates%20from%20Sorted%20List%20II.java)
+    - [ Remove Zero Sum Consecutive Nodes from Linked List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/%20Remove%20Zero%20Sum%20Consecutive%20Nodes%20from%20Linked%20List.java)
+    - 
   - ### Priority Queue
   - ### Queue
   - ### Stack
