@@ -1,13 +1,14 @@
 import java.util.*;
 
-public class AVLTree<T extends Comparable<? super T>> {
+
+public class BSTree<T extends Comparable<? super T>> {
     Node<T> root;
     int nodeCount;
 
-    public AVLTree() {
+    public BSTree() {
     }
 
-    public AVLTree(T value) {
+    public BSTree(T value) {
         this.root = new Node<>(value);
         nodeCount++;
     }
@@ -45,11 +46,34 @@ public class AVLTree<T extends Comparable<? super T>> {
             curRoot.left=insert(value,curRoot.left);
         else  if(value.compareTo(curRoot.value)>0) //insert in the right subtree
             curRoot.right=insert(value,curRoot.right);
-
-        update(curRoot);
-        return balance(curRoot);
+        // return pointer
+        return curRoot;
 
     }
+
+
+    public boolean contains(T value) {
+        return search(value)!=null;
+    }
+    public Node<T> search(T value) {
+        return search(value,root);
+    }
+
+    private Node<T> search(T value, Node<T> curRoot) {
+        if(curRoot==null||curRoot.value.equals(value ))
+            return curRoot;
+
+        if(value.compareTo(curRoot.value)<0)
+            return search(value,curRoot.left);
+        else   return search(value,curRoot.right);
+    }
+    //  method to find the leftmost node (which has the smallest value)
+    public Node<T> minValue(Node <T> cur){
+        while(cur!=null && cur.left!=null)
+            cur=cur.left;
+        return cur;
+    }
+
     public boolean remove(T value){
         if(contains(value)){
             remove(root,value);
@@ -69,111 +93,88 @@ public class AVLTree<T extends Comparable<? super T>> {
         else if(comp>0)    node.right=remove(node.right,value);
             // Found the node we wish to remove
         else {
+            // This is the case with only a right subtree or no subtree at all. In this situation just
+            // swap the node we wish to remove with its right child.
             if(node.left==null)
                 return node.right;
+
+                // This is the case with only a left subtree or no subtree at all. In this situation just
+                // swap the node we wish to remove with its left child.
             else if(node.right==null)
                 return node.left;
+                // When removing a node from a binary tree with two links the
+                // successor of the node being removed can either be the largest
+                // value in the left subtree or the smallest value in the right
+                // subtree. In this implementation I have decided to find the
+                // smallest value in the right subtree which can be found by
+                // traversing as far left as possible in the right subtree.
             else {
-                if(node.right.height>node.left.height) {
-                    Node<T> temp = minValue(node.right);
-                    node.value = temp.value;
-                    node.right = remove(node.right, temp.value);
-                }else {
-                    Node<T> temp = maxValue(node.left);
-                    node.value = temp.value;
-                    node.left = remove(node.left, temp.value);
-                }
+                // Find the leftmost node in the right subtree
+                Node<T>temp=minValue(node.right);
+                // Swap the data
+                node.value=temp.value;
+                // Go into the right subtree and remove the leftmost node we
+                // found and swapped data with. This prevents us from having
+                // two nodes in our tree with the same value.
+                node.right=remove(node.right,temp.value);
+                // If instead we wanted to find the largest node in the left
+                // subtree as opposed to the smallest node in the right subtree
+                // here is what we would do:
+                // Node tmp = findMax(node.left);
+                // node.data = tmp.data;
+                // node.left = remove(node.left, tmp.data);
+
             }
-        }
-        update(node);
-        return balance(node);
 
-    }
-
-    // Update a node's height and balance factor.
-    public void update (Node<T> node){
-        int leftHeight = (node.left==null?-1 : node.left.height);
-        int rightHeight = (node.right==null?-1 : node.right.height);
-        // Update balance factor.
-        node.bf =leftHeight-rightHeight;
-        // Update this node's height.
-        node.height=1+Math.max(leftHeight,rightHeight);
-
-    }
-    // Re-balance a node if its balance factor is +2 or -2.
-    private Node<T> balance (Node<T> node){
-        // Left heavy subtree.
-        if(node.bf ==2){
-            if(node.left.bf>0)
-              return leftLeftCase(node);
-            else return leftRightCase(node);
         }
-        // Right heavy subtree needs balancing.
-        else if(node.bf==-2){
-            if(node.right.bf<0)
-                return rigthRightCase(node);
-            else return rightLeftCase(node);
-        }
-        // Node either has a balance factor of 0, +1 or -1 which is fine.
         return node;
+
+    }
+    boolean f=true;
+    public void sort(){
+        while(f) {
+            //  System.out.println(i);
+            f=false;
+            sort(root, null, null);
+        }
     }
 
-    private Node<T> leftLeftCase(Node<T> node){
-        return rightRotation(node);
-    }
-    private Node<T> rigthRightCase(Node<T> node){
-        return leftRotation(node);
-    }
-    private Node<T> leftRightCase(Node<T> node){
-        node.left=leftRotation(node.left);
-        return leftLeftCase(node);
-    }
-    private Node<T> rightLeftCase(Node<T> node){
-        node.right=rightRotation(node.right);
-        return rigthRightCase(node);
-    }
-    private Node<T> rightRotation(Node<T> node) {
-        Node<T> newParent = node.left;
-        node.left = newParent.right;
-        newParent.right = node;
-        update(node);
-        update(newParent);
-        return newParent;
-    }
-    private Node<T> leftRotation(Node<T> node) {
-        Node<T> newParent = node.right;
-        node.right = newParent.left;
-        newParent.left = node;
-        update(node);
-        update(newParent);
-        return newParent;
-    }
-    private boolean contains(T value) {
-        return search(value)!=null;
-    }
-    public Node<T> search(T value) {
-        return search(value,root);
+    private  void sort(Node<T> node,Node<T> upper,Node<T> lower) {
+        if(node==null)
+            return;
+        if(lower!=null && node.value.compareTo(lower.value)<0){
+            T tem=node.value;
+            node.value=lower.value;
+            lower.value=tem;f=true;
+            //  inOrder();
+        }
+        if(upper!=null && node.value.compareTo(upper.value)>0){
+            T tem=node.value;
+            node.value=upper.value;
+            upper.value=tem;f=true;
+            //   inOrder();
+        }
+
+        sort(node.left,node,lower);
+        sort(node.right,upper,node);
+
     }
 
-    private Node<T> search(T value, Node<T> curRoot) {
-        if(curRoot==null||curRoot.value==value )
-            return curRoot;
-
-        if(value.compareTo(curRoot.value)<0)
-            return search(value,curRoot.left);
-        else   return search(value,curRoot.right);
-    }
-    //  method to find the leftmost node (which has the smallest value)
-    public Node<T> minValue(Node <T> cur){
-        while(cur!=null && cur.left!=null)
-            cur=cur.left;
-        return cur;
+    private Node<T> minValueRec(Node <T> cur){
+        if(cur==null || cur.left==null)
+            return cur;
+        return minValueRec(cur.left);
     }
     //  method to find the rightmost node (which has the largest value)
     public Node<T> maxValue(Node<T> cur) {
         while(cur!=null && cur.right!=null)
             cur=cur.right;
         return cur;
+    }
+    private Node<T> maxValueRec(Node <T> cur){
+        if(cur==null || cur.right==null)
+            return cur;
+        return maxValueRec(cur.right);
     }
 
     // Computes the height of the tree, O(n)
@@ -226,20 +227,22 @@ public class AVLTree<T extends Comparable<? super T>> {
         }
     }
 
+
+
     //print level by level from left to right (up to down)
     public void LevelOrder(){
-        BFs(root);
+        bfs(root);
         System.out.println();
     }
-    private void BFs(Node root){
+    private void bfs(Node<T> root){
         Queue<Node<T>> q=new LinkedList<>();
         HashMap<T,Integer>level=new HashMap<>();
         if(root!=null) {
             q.add(root);
-            level.put((T) root.value, 1);
+            level.put(root.value, 1);
         }
         while(!q.isEmpty()){
-            Node<T>node=q.remove();
+            Node<T> node=q.remove();
             System.out.print(node.value+" ");
             if(node.left!=null) {
                 q.add(node.left);
@@ -250,6 +253,101 @@ public class AVLTree<T extends Comparable<? super T>> {
                 level.put((T) node.right.value, level.get(node.value) + 1);
             }
         }
+    }
+
+    //print level by level from right to left (down to up)
+    public void LevelOrder2(){
+        bfs2(root);
+        System.out.println();
+    }
+    private void bfs2(Node root){
+        Queue<Node<T>> q=new LinkedList<>();
+        Stack<T>st=new Stack<>();
+        HashMap<T,Integer>level=new HashMap<>();
+        if(root!=null) {
+            q.add(root);
+            level.put((T) root.value, 1);
+        }
+        while(!q.isEmpty()){
+            Node<T>node=q.remove();
+            st.push(node.value);
+            if(node.left!=null) {
+                q.add(node.left);
+                level.put((T) node.left.value, level.get(node.value) + 1);
+            }
+            if(node.right!=null) {
+                q.add(node.right);
+                level.put((T) node.right.value, level.get(node.value) + 1);
+            }
+        }
+        while (!st.isEmpty()){
+            System.out.print(st.pop()+" ");
+        }
+    }
+    //print level by level from left to right(down to up)
+    public void LevelOrder3(){
+        bfs3(root);
+        System.out.println();
+    }
+    private void bfs3(Node root) {
+        Queue<Node<T>> q = new LinkedList<>();
+        Stack<T> st = new Stack<>();
+        HashMap<T, Integer> level = new HashMap<>();
+        if (root != null) {
+            q.add(root);
+            level.put((T) root.value, 1);
+        }
+        while (!q.isEmpty()) {
+            Node<T> node = q.remove();
+            st.push(node.value);
+            if (node.right != null) {
+                q.add(node.right);
+                level.put((T) node.right.value, level.get(node.value) + 1);
+            }
+            if (node.left != null) {
+                q.add(node.left);
+                level.put((T) node.left.value, level.get(node.value) + 1);
+            }
+
+        }
+        while (!st.isEmpty()) {
+            System.out.print(st.pop() + " ");
+        }
+    }
+
+    public void Morris(Node<T> node) {
+        Node <T> curr, prev;
+        if (node == null)
+            return;
+        curr = node;
+        while (curr != null) {
+            if (curr.left == null) {
+                System.out.print(curr.value + " ");
+                curr = curr.right;
+            } else {
+                /* Find the previous (prev) of curr */
+                prev = curr.left;
+                while (prev.right != null && prev.right != curr)
+                    prev = prev.right;
+                /* Make curr as right child of its prev */
+                if (prev.right == null) {
+                    prev.right = curr;
+                    curr = curr.left;
+                }
+
+                /* fix the right child of prev*/
+
+                else {
+                    prev.right = null;
+                    System.out.print(curr.value + " ");
+                    curr = curr.right;
+                }
+
+            }
+
+        }
+
+
     }
 
 public class Node<T extends Comparable<? super T>> {
