@@ -33,6 +33,7 @@
     - [Binary Tree Level Order Traversal](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Binary%20Tree%20Level%20Order%20Traversal.java)
     - [Validate Binary Search Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Validate%20Binary%20Search%20Tree.java)
     - [Count Good Nodes in Binary Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/%20Count%20Good%20Nodes%20in%20Binary%20Tree.java)
+    - [Minimum Distance Between BST Nodes](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Minimum%20Distance%20Between%20BST%20Nodes.java)
   - Linked List
   - Priority Queue
   - Queue
