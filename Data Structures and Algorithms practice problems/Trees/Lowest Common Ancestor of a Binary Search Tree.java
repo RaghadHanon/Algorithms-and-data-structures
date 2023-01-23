@@ -28,7 +28,7 @@ class Solution {
          }
       }
 
-     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+     public TreeNode lowestCommonAncestor1(TreeNode root, TreeNode p, TreeNode q) {
          
          small=Math.min(p.val,q.val);
          larg=Math.max(p.val,q.val);
@@ -39,7 +39,7 @@ class Solution {
     
 
 // Sol.no.2
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    public TreeNode lowestCommonAncestor2(TreeNode root, TreeNode p, TreeNode q) {
        int small=Math.min(p.val,q.val);
        int larg=Math.max(p.val,q.val);
        while(root!=null){
@@ -75,7 +75,7 @@ class Solution {
         return search(value,curRoot.left,f);
         else  return search(value,curRoot.right,f);
     }
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    public TreeNode lowestCommonAncestor3(TreeNode root, TreeNode p, TreeNode q) {
         search(p.val,root,1);
         search(q.val,root,2);
         TreeNode lca=null;;
