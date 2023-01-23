@@ -121,7 +121,7 @@ public class AVLTree<T extends Comparable<? super T>> {
     private Node<T> leftLeftCase(Node<T> node){
         return rightRotation(node);
     }
-[O    private Node<T> rigthRightCase(Node<T> node){
+    private Node<T> rigthRightCase(Node<T> node){
         return leftRotation(node);
     }
     private Node<T> leftRightCase(Node<T> node){
