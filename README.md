@@ -44,7 +44,8 @@
     - [Binary Tree Maximum Path Sum](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Binary%20Tree%20Maximum%20Path%20Sum.java)
     - [Binary Tree Right Side View](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Binary%20Tree%20Right%20Side%20View.java)
     - [Kth Smallest Element in a BST](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Kth%20Smallest%20Element%20in%20a%20BST.java)
-  - Linked List
+  - [Linked List](https://github.com/RaghadHanon/Algorithms-and-data-structures/tree/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList)
+    - [Reverse Linked List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/Reverse%20Linked%20List.java)
   - Priority Queue
   - Queue
   - Stack
