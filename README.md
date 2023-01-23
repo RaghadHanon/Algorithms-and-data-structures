@@ -37,6 +37,9 @@
     - [Convert Sorted Array to Binary Search Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.java)
     - [Count Complete Tree Nodes](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Count%20Complete%20Tree%20Nodes.java)
     - [Check Completeness of a Binary Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Check%20Completeness%20of%20a%20Binary%20Tree.java)
+    - [Reverse Odd Levels of Binary Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Reverse%20Odd%20Levels%20of%20Binary%20Tree.java)
+    - [ Binary Tree Zigzag Level Order Traversal](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.java)
+    - 
   - Linked List
   - Priority Queue
   - Queue
