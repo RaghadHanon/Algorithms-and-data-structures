@@ -2,7 +2,7 @@
  <ul>
   <li>Balanced Trees
     <ul>
-      <li>AVL Tree (recursive)</li>
+      <li> [AVL Tree (recursive)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/AVLTree.java) </li>
     </ul>
   </li>
   <li>Binary Search Tree</li>
