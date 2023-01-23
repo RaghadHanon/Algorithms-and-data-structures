@@ -1,37 +1,22 @@
 # Data Structures
- <ul>
-  <li>Balanced Trees
-    <ul>
-      <li> [AVL Tree (recursive)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/AVLTree.java) </li>
-    </ul>
-  </li>
-  <li>Binary Search Tree</li>
-  <li>Linked List 
-    <ul>
-      <li>Singly linked lists</li>
-      <li>Doubly linked lists</li>
-    </ul>
-  </li>
-  <li>Array List </li>
-  <li>Priority Queue
-    <ul>
-      <li>Min Binary Heap</li>
-      <li>Max Binary Heap</li>
-    </ul>
-  </li>
-   <li> Queue
-     <ul>
-      <li>Queue(LinkedList implementation)</li>
-      <li>Circular Queue(Array implementation)</li>
-    </ul>
-   </li>
-   <li> Stack
-   <ul>
-      <li>Stack(LinkedList implementation)</li>
-      <li>Stack(Array implementation)</li>
-      <li>Stack(Queue implementation)</li>
-    </ul>
-   </li>
-</ul>
+ - Balanced Trees
+   - [AVL Tree (recursive)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/AVLTree.java) 
+ - [Binary Search Tree](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/BinarySearchTree.java)
+ - Linked List 
+   - [Singly linked lists](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/SinglyLinkedLists.java)
+   - [Doubly linked lists](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/DoublyLinkedLists.java)
+ - [Array List ](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/ArrayList.java)
+ - Priority Queue
+   - [Min Binary Heap](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/MinBinaryHeap.java)
+   - [Max Binary Heap](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/MaxBinaryHeap.java)
+ - Queue
+     - [Queue (LinkedList implementation)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/Queue.java)
+     - [Circular Queue(Array implementation)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/CircularQueue.java)
+ - Stack
+   - [Stack(LinkedList implementation)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/StackLinkedList.java)
+   - [li>Stack(Array implementation)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/ArrayList.java)
+   - [Stack(Queue implementation)]()
+   
+ 
  
  
