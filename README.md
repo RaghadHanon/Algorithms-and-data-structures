@@ -49,6 +49,8 @@
     - [Middle of the Linked List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/Middle%20of%20the%20Linked%20List.java)
     - [Reorder List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/Reorder%20List.java)
     - [Rotate List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/%20Rotate%20List.java)
+    - [ Linked List Cycle](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/%20Linked%20List%20Cycle.java)
+    - [Linked List Cycle II](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/LinkedList/Linked%20List%20Cycle%20II.java)
   - ### Priority Queue
   - ### Queue
   - ### Stack
