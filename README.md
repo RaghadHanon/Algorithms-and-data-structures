@@ -18,5 +18,13 @@
    
    
  
- 
+ # Data Structures and Algorithms practice problems
+  - Trees 
+  - Linked List
+  - Priority Queue
+  - Queue
+  - Stack
+  - Recursion
+  - Hashing
+  
  
