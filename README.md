@@ -41,7 +41,9 @@
     - [ Binary Tree Zigzag Level Order Traversal](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.java)
     - [Lowest Common Ancestor of a Binary Search Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.java)
     - [Construct Binary Search Tree from Preorder Traversal](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal.java)
-    - 
+    - [Binary Tree Maximum Path Sum](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Binary%20Tree%20Maximum%20Path%20Sum.java)
+    - [Binary Tree Right Side View](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Binary%20Tree%20Right%20Side%20View.java)
+    - [Kth Smallest Element in a BST](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Kth%20Smallest%20Element%20in%20a%20BST.java)
   - Linked List
   - Priority Queue
   - Queue
