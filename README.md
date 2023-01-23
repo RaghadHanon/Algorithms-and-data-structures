@@ -39,6 +39,7 @@
     - [Check Completeness of a Binary Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Check%20Completeness%20of%20a%20Binary%20Tree.java)
     - [Reverse Odd Levels of Binary Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Reverse%20Odd%20Levels%20of%20Binary%20Tree.java)
     - [ Binary Tree Zigzag Level Order Traversal](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.java)
+    - [Lowest Common Ancestor of a Binary Search Tree](https://github.com/RaghadHanon/Algorithms-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.java)
     - 
   - Linked List
   - Priority Queue
