@@ -16,7 +16,15 @@
    - [Stack(LinkedList implementation)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/StackLinkedList.java)
    - [Stack(Array implementation)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/ArrayList.java)
    
-   
+ # Sorting algorithms
+  - [Bubble sort](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Sorting%20Algorithms/Bubble%20sort%20.java) - O(n2)
+  - [Heapsort](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Sorting%20Algorithms/Heapsort.java)- O(nlog(n))
+  - [Insertion sort](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Sorting%20Algorithms/Insertion%20sort.java) - O(n2)
+  - [Mergesort](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Sorting%20Algorithms/Mergesort.java) - O(nlog(n))
+  - [Selection sort](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Sorting%20Algorithms/Selection%20sort.java) - O(n2)
+  - [Quicksort (first element as a pivot)](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Sorting%20Algorithms/Quicksort%20(first%20element%20as%20a%20pivot).java) - Θ(nlog(n))
+  - [Quicksort (last element as a pivot)](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Sorting%20Algorithms/Quicksort%20(last%20element%20as%20a%20pivot).java) - Θ(nlog(n))
+  - [Quicksort (middle element as a pivot)](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Sorting%20Algorithms/Quicksort%20(middle%20element%20as%20a%20pivot).java) - Θ(nlog(n))
  
  # Data Structures and Algorithms practice problems
   - ### [Trees](https://github.com/RaghadHanon/Algorithms-data-structures/tree/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Trees) 
