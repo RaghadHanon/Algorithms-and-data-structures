@@ -91,6 +91,10 @@
     - [Fibonacci](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Recursion/Fibonacci.java)
     - [Push first in stack](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Recursion/Push%20first%20in%20stack.java)
     - [Sorted Insertion on stack](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Recursion/Sorted%20Insertion%20on%20stack.java)
+    - [Insert By Index in Stack](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Recursion/Insert%20By%20Index%20in%20Stack.java)
+    - [Sort a stack ](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Recursion/Sort%20a%20stack%20.java)
+    - [Reverse Nodes in k-Group](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Recursion/Reverse%20Nodes%20in%20k-Group.java)
+    - [Remove Nodes From Linked List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Recursion/Remove%20Nodes%20From%20Linked%20List.java)
   - ### Hashing
   
  
