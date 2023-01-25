@@ -1,6 +1,6 @@
 // Print first k Binary Number
-// example : k=5
-// 1 10 11 100 101
+// example :
+// input: k=5      output: 1 10 11 100 101
 public static void PrintPinaryNumber(int k){
     MyQueue<String>q=new MyQueue<>();
     String []arr=new String[k];
