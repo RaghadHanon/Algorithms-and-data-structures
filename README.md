@@ -70,7 +70,9 @@
     - [Last Stone Weight](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Priority%20Queue/Last%20Stone%20Weight.java)
     - [K Closest Points to Origin](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Priority%20Queue/K%20Closest%20Points%20to%20Origin.java)
     - [Kth Largest Element in an Array](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Priority%20Queue/Kth%20Largest%20Element%20in%20an%20Array.java)
-  - ### Queue
+  - ### [Queue](https://github.com/RaghadHanon/Algorithms-and-data-structures/tree/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Queue)
+    - [Reverse a queue](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Queue/Reverse%20a%20queue.java)
+    - [Print first k Binary Number](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Queue/Print%20first%20k%20Binary%20Number.java)
   - ### Stack
   - ### Recursion
   - ### Hashing
