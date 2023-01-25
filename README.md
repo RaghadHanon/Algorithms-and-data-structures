@@ -111,6 +111,6 @@
     - [ Longest Substring Without Repeating Characters](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Hashing/%20Longest%20Substring%20Without%20Repeating%20Characters.java)
     - [Longest Consecutive Sequence](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Hashing/Longest%20Consecutive%20Sequence.java)
     - [Ugly Number](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Hashing/Ugly%20Number.java)
-  -### [Sorting](https://github.com/RaghadHanon/Algorithms-and-data-structures/tree/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Sorting)
+  - ### [Sorting](https://github.com/RaghadHanon/Algorithms-and-data-structures/tree/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Sorting)
     - [Sort List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Sorting/Sort%20List.java)
  
