@@ -87,7 +87,10 @@
     - [Find Minimum number](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/Find%20Minimum%20number.java)
     - [Reverse a stack](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/Reverse%20a%20stack.java)
     - [Reverse Substrings Between Each Pair of Parentheses](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/Reverse%20Substrings%20Between%20Each%20Pair%20of%20Parentheses.java)
-  - ### Recursion
+  - ### [Recursion](https://github.com/RaghadHanon/Algorithms-and-data-structures/tree/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Recursion)
+    - [Fibonacci](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Recursion/Fibonacci.java)
+    - [Push first in stack](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Recursion/Push%20first%20in%20stack.java)
+    - [Sorted Insertion on stack](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Recursion/Sorted%20Insertion%20on%20stack.java)
   - ### Hashing
   
  
