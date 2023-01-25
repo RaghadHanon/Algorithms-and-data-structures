@@ -1,4 +1,4 @@
-//Find Minimum number
+//Find Minimum number in a given stack
 
 //example : 
 // input : 101 4 5 44 66 33 2 14      output : 2
