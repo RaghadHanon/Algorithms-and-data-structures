@@ -120,7 +120,11 @@
     - [Ugly Number](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Hashing/Ugly%20Number.java)
   - ### [Sorting](https://github.com/RaghadHanon/Algorithms-and-data-structures/tree/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Sorting)
     - [Sort List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Sorting/Sort%20List.java
-  - ### Graph Theory
+  - ### [Graph Theory](https://github.com/RaghadHanon/Algorithms-and-data-structures/tree/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Graph%20theory)
     - [Find Center of Star Graph](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Graph%20theory/Find%20Center%20of%20Star%20Graph.java)
     - [All Paths From Source to Target](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Graph%20theory/All%20Paths%20From%20Source%20to%20Target.java)
-    - []()
+    - [Find if Path Exists in Graph](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Graph%20theory/Find%20if%20Path%20Exists%20in%20Graph.java)
+    - [Find the Town Judge](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Graph%20theory/Find%20the%20Town%20Judge.java)
+    - [Minimum Number of Vertices to Reach All Nodes](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Graph%20theory/Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.java)
+    - [ Number of Provinces](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Graph%20theory/%20Number%20of%20Provinces.java)
+    - [Keys and Rooms](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Graph%20theory/Keys%20and%20Rooms.java)
