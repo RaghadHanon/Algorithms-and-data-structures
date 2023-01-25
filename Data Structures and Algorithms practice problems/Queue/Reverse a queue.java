@@ -1,4 +1,7 @@
 // Q.Reverse a queue
+//example :
+//input :1 2 4 5 6     output:6 5 4 2 1 
+
 
 //Iterative
 public static <T>MyQueue <T>  reverse(MyQueue <T> q){
