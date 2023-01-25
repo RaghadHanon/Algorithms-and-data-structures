@@ -1,6 +1,6 @@
 # Data Structures Java Implementation
  - ### [Balanced Trees](https://github.com/RaghadHanon/Algorithms-and-data-structures/tree/main/DataStructures/Balanced%20Trees)
-   - [AVL Tree (recursive)](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/AVLTree.java) 
+   - [AVL Tree (recursive)](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/DataStructures/Balanced%20Trees/AVLTree.java) 
  - ### [Binary Search Tree](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/BinarySearchTree.java)
  - ### [Linked List](https://github.com/RaghadHanon/Algorithms-and-data-structures/tree/main/DataStructures/Linked%20List) 
    - [Singly linked lists](https://github.com/RaghadHanon/Algorithms-data-structures-project/blob/main/DataStructures/SinglyLinkedLists.java)
