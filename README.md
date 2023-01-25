@@ -82,6 +82,11 @@
     - [Validate Stack Sequences](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/Validate%20Stack%20Sequences.java)
     - [Next Greater Node In Linked List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/Next%20Greater%20Node%20In%20Linked%20List.java)
     - [ Remove All Adjacent Duplicates in String II](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/%20Remove%20All%20Adjacent%20Duplicates%20in%20String%20II.java)
+    - [Valid Parentheses](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/Valid%20Parentheses.java)
+    - [Minimum Add to Make Parentheses Valid](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/Minimum%20Add%20to%20Make%20Parentheses%20Valid.java)
+    - [Find Minimum number](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/Find%20Minimum%20number.java)
+    - [Reverse a stack](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/Reverse%20a%20stack.java)
+    - [Reverse Substrings Between Each Pair of Parentheses](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/Reverse%20Substrings%20Between%20Each%20Pair%20of%20Parentheses.java)
   - ### Recursion
   - ### Hashing
   
