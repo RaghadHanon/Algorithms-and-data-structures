@@ -128,3 +128,11 @@
     - [Minimum Number of Vertices to Reach All Nodes](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Graph%20theory/Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.java)
     - [ Number of Provinces](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Graph%20theory/%20Number%20of%20Provinces.java)
     - [Keys and Rooms](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Graph%20theory/Keys%20and%20Rooms.java)
+
+# Resources
+ - [INTRODUCTION TO JAVA PROGRAMMING](academia.edu/44013374/INTRODUCTION_TO_JAVA_PROGRAMMING_COMPREHENSIVE_VERSION_Tenth_Edition)
+ - [java T Point](https://www.javatpoint.com/collections-in-java)
+ - [Geeks for geeks](https://www.geeksforgeeks.org/)
+ - [Tutorials Point](https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm)
+ - [NeetCode](https://neetcode.io/practice?fbclid=IwAR2dMmb3Ll5xY6GMbOUjst6BX0hX-7r8252dUkuzDkJ0QdzxTc9i6owoing)
+ - [Visual go](https://visualgo.net/en)
