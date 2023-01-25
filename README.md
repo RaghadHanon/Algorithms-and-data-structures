@@ -26,8 +26,8 @@
   - [Quicksort (last element as a pivot)](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Sorting%20Algorithms/Quicksort%20(last%20element%20as%20a%20pivot).java) - Θ(nlog(n))
   - [Quicksort (middle element as a pivot)](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Sorting%20Algorithms/Quicksort%20(middle%20element%20as%20a%20pivot).java) - Θ(nlog(n))
  # Graph theory
- - [Depth first search (adjacency matrix, iterative)](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Graph%20theory/Depth%20first%20search%20(adjacency%20list,%20iterative)%20-%20O(V+E).java) - O(V+E)
- - [Depth first search (adjacency matrix, recursion)](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Graph%20theory/Depth%20first%20search%20(adjacency%20list,%20recursion).java) - O(V+E)
+ - [Depth first search (adjacency matrix, iterative)](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Graph%20theory/Depth%20first%20search%20(adjacency%20list%2C%20iterative)%20.java) - O(V+E)
+ - [Depth first search (adjacency matrix, recursion)](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Graph%20theory/Depth%20first%20search%20(adjacency%20matrix%2C%20recursion).java) - O(V+E)
  - [Depth first search (adjacency list, iterative)](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Graph%20theory/Depth%20first%20search%20(adjacency%20list,%20iterative).java) - O(V+E)
  - [Depth first search (adjacency list, recursion)](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Graph%20theory/Depth%20first%20search%20(adjacency%20list%2C%20recursion).java) - O(V+E)
  
