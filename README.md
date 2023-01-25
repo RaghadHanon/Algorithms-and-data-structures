@@ -95,6 +95,13 @@
     - [Sort a stack ](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Recursion/Sort%20a%20stack%20.java)
     - [Reverse Nodes in k-Group](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Recursion/Reverse%20Nodes%20in%20k-Group.java)
     - [Remove Nodes From Linked List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Recursion/Remove%20Nodes%20From%20Linked%20List.java)
-  - ### Hashing
+  - ### [Hashing](https://github.com/RaghadHanon/Algorithms-and-data-structures/tree/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Hashing)
+    - [Two Sum](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Hashing/Two%20Sum.java)
+    - [ Valid Anagram](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Hashing/%20Valid%20Anagram.java)
+    - [Group Anagrams](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Hashing/Group%20Anagrams.java)
+    - [Top K Frequent Elements](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Hashing/Top%20K%20Frequent%20Elements.java)
+    - [ Longest Substring Without Repeating Characters](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Hashing/%20Longest%20Substring%20Without%20Repeating%20Characters.java)
+    - [Longest Consecutive Sequence](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Hashing/Longest%20Consecutive%20Sequence.java)
+    - [Ugly Number](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Hashing/Ugly%20Number.java)
   
  
