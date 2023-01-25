@@ -1,5 +1,7 @@
 //https://leetcode.com/problems/find-if-path-exists-in-graph/
 class Solution {
+    
+    //1.BFS
 
     HashMap<Integer,Boolean> visited=new HashMap<>();
     List<Integer> []adj;
@@ -35,4 +37,37 @@ class Solution {
 
           return visited.get(source)&&visited.get(destination);
     }
+    
+    
+    
+    
+    //2.DFS
+        HashMap<Integer,Boolean> visited=new HashMap<>();
+    List<Integer> []adj;
+    public void dfs(int node,  List<Integer> [] adj, int destination) {
+        visited.put(node,true);
+        if(! visited.get(destination))
+         for(int i=0;i<adj[node].size();i++){
+             if(visited.get(adj[node].get(i))==false)
+             dfs(adj[node].get(i),adj,destination);
+         }
+    }
+    public boolean validPath(int n, int[][] edges, int source, int destination) {
+        adj=new ArrayList[n];
+
+         for(int i=0;i<n;i++){
+          visited.put(i,false);
+          adj[i]=new ArrayList<>();
+        }
+
+        for(int i=0;i<edges.length;i++){
+          adj[edges[i][0]].add(edges[i][1]);
+          adj[edges[i][1]].add(edges[i][0]);
+        }
+
+          dfs(source , adj, destination);
+
+          return visited.get(source)&&visited.get(destination);
+    }
+
 }
