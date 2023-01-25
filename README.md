@@ -73,6 +73,7 @@
   - ### [Queue](https://github.com/RaghadHanon/Algorithms-and-data-structures/tree/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Queue)
     - [Reverse a queue](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Queue/Reverse%20a%20queue.java)
     - [Print first k Binary Number](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Queue/Print%20first%20k%20Binary%20Number.java)
+    - [Sort queue](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Queue/Sort%20queue%20.java)
   - ### Stack
   - ### Recursion
   - ### Hashing
