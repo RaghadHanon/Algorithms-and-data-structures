@@ -71,6 +71,18 @@ public class GraphAd {
 
     }
 
+public class Vertex {
+    String label;
+    boolean isVisited;
+
+    public Vertex(String label){
+        this.label=label;
+    }
+    public Vertex(String label,boolean isVisited){
+        this.label=label;
+        this.isVisited=isVisited;
+    }
+}
 
 
 
