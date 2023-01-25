@@ -74,7 +74,11 @@
     - [Reverse a queue](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Queue/Reverse%20a%20queue.java)
     - [Print first k Binary Number](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Queue/Print%20first%20k%20Binary%20Number.java)
     - [Sort queue](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Queue/Sort%20queue%20.java)
-  - ### Stack
+  - ### [Stack](https://github.com/RaghadHanon/Algorithms-and-data-structures/tree/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack)
+    - [Add number k to a sorted stack](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/Add%20number%20k%20to%20a%20sorted%20stack.java)
+    - [Sort a stack](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/Sort%20a%20stack.java)
+    - [Arithmetic Expressions ](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/Arithmetic%20Expressions%20.java)
+    - []()
   - ### Recursion
   - ### Hashing
   
