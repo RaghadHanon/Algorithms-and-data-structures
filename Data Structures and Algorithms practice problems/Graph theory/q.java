@@ -1,47 +1,38 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-
-//https://leetcode.com/problems/binary-tree-level-order-traversal/description/?fbclid=IwAR2CHmQP24AqHhluHV_pomxKGNQzmV7tsJfXpbi9DSel-1N8GJofl9G6V04
+//https://leetcode.com/problems/find-if-path-exists-in-graph/
 class Solution {
-  
-  List<List<Integer>>  list=new ArrayList<>();
 
-    public void bfs(TreeNode root){
-       Queue<TreeNode> q=new LinkedList<>();
+    HashMap<Integer,Boolean> visited=new HashMap<>();
+    List<Integer> []adj;
+    public void bfs(int s,  List<Integer> [] adj, int destination) {
+        Queue<Integer> q=new LinkedList<>();
+        q.add(s);
+        visited.put(s,true);
 
-       if(root!=null){
-           q.add(root);
-       }
-       while(!q.isEmpty()){
-           int size=q.size();    
-           ArrayList<Integer>l=new ArrayList<>();
-           for(int i=0;i<size;i++){
-           TreeNode node=q.remove();
-           l.add(node.val);
-           if(node.left!=null)q.add(node.left);
-           if(node.right!=null)q.add(node.right);
-           }
-           list.add(l);
-       }
-
-       
+        while(! visited.get(destination) && !q.isEmpty()){
+            int node=q.remove();
+            for(int i=0;i<adj[node].size();i++){
+             if(visited.get(adj[node].get(i))==false){
+                q.add(adj[node].get(i));
+                visited.put(adj[node].get(i),true);
+             }
+            }
+        }
     }
-    public List<List<Integer>> levelOrder(TreeNode root) {
-        bfs(root);
-        
-        return list;
+    public boolean validPath(int n, int[][] edges, int source, int destination) {
+        adj=new ArrayList[n];
+
+         for(int i=0;i<n;i++){
+          visited.put(i,false);
+          adj[i]=new ArrayList<>();
+        }
+
+        for(int i=0;i<edges.length;i++){
+          adj[edges[i][0]].add(edges[i][1]);
+          adj[edges[i][1]].add(edges[i][0]);
+        }
+
+          bfs(source , adj, destination);
+
+          return visited.get(source)&&visited.get(destination);
     }
 }
