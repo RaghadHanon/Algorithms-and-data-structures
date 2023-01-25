@@ -78,7 +78,10 @@
     - [Add number k to a sorted stack](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/Add%20number%20k%20to%20a%20sorted%20stack.java)
     - [Sort a stack](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/Sort%20a%20stack.java)
     - [Arithmetic Expressions ](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/Arithmetic%20Expressions%20.java)
-    - []()
+    - [Remove All Adjacent Duplicates In String](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/Remove%20All%20Adjacent%20Duplicates%20In%20String.java)
+    - [Validate Stack Sequences](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/Validate%20Stack%20Sequences.java)
+    - [Next Greater Node In Linked List](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/Next%20Greater%20Node%20In%20Linked%20List.java)
+    - [ Remove All Adjacent Duplicates in String II](https://github.com/RaghadHanon/Algorithms-and-data-structures/blob/main/Data%20Structures%20and%20Algorithms%20practice%20problems/Stack/%20Remove%20All%20Adjacent%20Duplicates%20in%20String%20II.java)
   - ### Recursion
   - ### Hashing
   
