@@ -30,7 +30,7 @@ public class StackL<T>{
             temp.setNext(Top);
             Top=temp;
         }
-[O        height++;
+        height++;
 
     }
     //o(1)
