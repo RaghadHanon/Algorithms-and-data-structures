@@ -19,7 +19,7 @@ public class QuickSortP {
         int PIndex=end;
         int pivot=a[start];
 
-        for(int i=start+1;i<=end;i++){
+        for(int i=end;i>start;i--){
             if(a[i]>=pivot){
                 swap(a,i,PIndex);
                 PIndex--;
