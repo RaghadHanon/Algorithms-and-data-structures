@@ -12,7 +12,7 @@ public class minBinaryHeap<T extends Comparable <? super T>>{
     public minBinaryHeap(int size) {
         heap=new ArrayList<>(size);
     }
-    // Construct a priority queue using heapify in O(n) time, a great explanation can be found at:
+    // Construct a priority queue using heapify in O(n) time:
     public minBinaryHeap(T[] arr) {
         int heapSize=arr.length;
         heap=new ArrayList<>(heapSize);
