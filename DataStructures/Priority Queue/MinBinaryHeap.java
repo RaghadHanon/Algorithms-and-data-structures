@@ -51,7 +51,7 @@ public class minBinaryHeap<T extends Comparable <? super T>>{
         return heap.size();
     }
 
-    // Clears everything inside the heap, O(n)
+    // Clears everything inside the heap, O(1)
     public void clear (){
         heap.clear();
     }
